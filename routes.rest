@@ -1,0 +1,77 @@
+@url = http://localhost:3000
+@creds64 = REPLACETHISWITHYOURPERSONALCREDS
+
+###
+GET {{url}}/webkiosk/login
+content-type: application/json
+Authorization: Basic {{creds64}}
+
+###
+GET {{url}}/webkiosk/logout
+content-type: application/json
+Authorization: Basic {{creds64}}
+
+###
+GET {{url}}/webkiosk/attendance
+content-type: application/json
+Authorization: Basic {{creds64}}
+
+###
+GET {{url}}/webkiosk/attendance?semcode=2017ODDSEM
+content-type: application/json
+Authorization: Basic {{creds64}}
+
+###
+GET {{url}}/webkiosk/attendance?semcode=2017ODDSEM&coursecode=15B11EC111
+content-type: application/json
+Authorization: Basic {{creds64}}
+
+###
+GET {{url}}/webkiosk/attendance/detailed
+content-type: application/json
+Authorization: Basic {{creds64}}
+
+###
+GET {{url}}/webkiosk/attendance/detailed?coursecode=15B11CI518
+content-type: application/json
+Authorization: Basic {{creds64}}
+
+###
+GET {{url}}/webkiosk/attendance/detailed?semcode=2017ODDSEM
+content-type: application/json
+Authorization: Basic {{creds64}}
+
+###
+GET {{url}}/webkiosk/attendance/detailed?semcode=2017ODDSEM&coursecode=15B11EC111
+content-type: application/json
+Authorization: Basic {{creds64}}
+
+###
+GET {{url}}/webkiosk/marks?semcode=2020ODDSEM
+content-type: application/json
+Authorization: Basic {{creds64}}
+
+###
+GET {{url}}/webkiosk/grades
+content-type: application/json
+Authorization: Basic {{creds64}}
+
+###
+GET {{url}}/webkiosk/points
+content-type: application/json
+Authorization: Basic {{creds64}}
+
+###
+GET {{url}}/webkiosk/fees
+content-type: application/json
+Authorization: Basic {{creds64}}
+
+###
+GET {{url}}/webkiosk/subjects
+content-type: application/json
+Authorization: Basic {{creds64}}
+
+###
+GET {{url}}/webkiosk/subjects?semcode=2017ODDSEM
+content-type: application/json
+Authorization: Basic {{creds64}}
